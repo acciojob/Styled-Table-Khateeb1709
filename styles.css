@@ -1,1 +1,26 @@
 /* your code */
+thead{
+	color: white;
+	font-weight: bold;
+	background-color: mediumblue;
+}
+
+th{
+	text-align: left;
+}
+
+table{
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+td{
+	text-align: left;
+}
+
+
+tr:nth-child(2n){
+	background: lightgray;
+}
